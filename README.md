@@ -1,3 +1,8 @@
+With a master's degree in IT Security Network and System from Ruhr-Universität Bochum, I am a Cyber Security Analyst at Accenture, providing innovative and effective solutions for clients across various industries. I have over 10 years of experience in computer engineering and network security, holding roles such as Security Engineer, Network Administrator, and Security Consultant for diverse organizations in Germany.
+
+I am also a core team member of OWASP AI Security, where I volunteer to improve documents and advance best practices in the field. I am proficient in Splunk and LogRhythm, two leading platforms for threat detection, incident response, and security architecture. I am passionate about continuous learning and staying updated on the latest technologies and industry trends. My core competencies include problem-solving, teamwork, communication, and customer service. I am dedicated to enhancing the security and resilience of the digital infrastructure and systems that power the modern world.
+
+
 [AI-Security
 ](https://github.com/behyka/behnazkarimi/blob/main/AI-Security)
 
