@@ -11,4 +11,7 @@ I am also a core team member of OWASP AI Security, where I volunteer to improve 
 
 [Sigma Rules](https://github.com/behyka/behnazkarimi/blob/6a921091b0b27dd4616866b6c980af30b3a55be2/Sigma%20Rules)
 
+[https://github.com/behyka/behnazkarimi/blob/b1a5845069955eb69b904317dc9dba15722ca2cc/Training%20AI%20Security ]
+ (https://github.com/behyka/behnazkarimi/blob/b1a5845069955eb69b904317dc9dba15722ca2cc/Training%20AI%20Security)
+
 Cantact me : [Behnaz Karimi](https://www.linkedin.com/in/behnaz-karimi-behi/)
