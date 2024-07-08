@@ -13,4 +13,4 @@ I am also a core team member of OWASP AI Security, where I volunteer to improve 
 
 [Training AI Security](https://github.com/behyka/behnazkarimi/blob/839b284f12eb7fa10dbcee8db5c9f66ec71169e1/Training%20AI%20Security)
 
-Cantact me : [Behnaz Karimi](https://www.linkedin.com/in/behnaz-karimi-behi/)
+
