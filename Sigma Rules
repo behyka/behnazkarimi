@@ -1,1 +1,47 @@
+Sigma rules are a generic and open standard format for sharing detection rules for security systems, particularly Security Information and Event Management (SIEM) systems. They allow for the creation of a unified detection rule syntax that can be translated into various SIEM platforms. This standardization helps in writing and sharing security analytics and alerts across different environments and tools, facilitating better threat detection and response.
 
+Key Features of Sigma Rules:
+Flexibility: They are designed to be SIEM-independent, meaning they can be used across different platforms like Splunk, Elastic, and others.
+Human-readable: Sigma rules are written in YAML, making them easy to read and understand.
+Extendability: They can be extended to support various data sources and detection techniques.
+Example of a Sigma Rule:
+Here is a simple example of a Sigma rule that detects a suspicious PowerShell execution:
+
+
+title: Suspicious PowerShell Execution
+id: 9f5a8c7e-8f12-4567-912e-8b2f7e7e5f9c
+description: Detects execution of PowerShell with suspicious arguments.
+status: experimental
+author: Security Analyst
+date: 2023/07/10
+logsource:
+  product: windows
+  service: sysmon
+detection:
+  selection:
+    EventID: 1
+    ParentImage: '*\powershell.exe'
+    CommandLine|contains:
+      - '-nop'
+      - '-w hidden'
+      - '-enc'
+  condition: selection
+falsepositives:
+  - Legitimate administrative activity
+level: high
+tags:
+  - attack.execution
+  - attack.t1086
+title: The name of the rule.
+id: A unique identifier for the rule.
+description: A brief description of what the rule detects.
+status: The current status of the rule (e.g., experimental, stable).
+author: The author of the rule.
+date: The date the rule was created or last updated.
+logsource: Specifies the source of the logs. In this case, it's Windows Sysmon.
+detection: Contains the logic of the rule.
+selection: Specifies the criteria for detection. Here, it detects Sysmon Event ID 1 (process creation) where the parent image is powershell.exe and the command line contains suspicious arguments.
+condition: The condition to be met for an alert to be triggered. In this case, if the selection criteria are met.
+falsepositives: Potential false positives that might trigger the rule, which need to be considered.
+level: The severity level of the detection.
+tags: MITRE ATT&CK tags related to the detection.
