@@ -2,8 +2,6 @@
 
 
 
-[AI-Security
-](https://github.com/behyka/behnazkarimi/blob/main/AI-Security)
 
 [Ransomware ](https://github.com/behyka/behnazkarimi/blob/1d4fca0ebbe619225ea774cd960dc405ae555f4f/Ransomware)
 
