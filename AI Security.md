@@ -21,3 +21,4 @@
 - Security: Protecting AI systems from cyber threats and ensuring data privacy.
 
 
+Ref: [OECD AI Principles overview](https://oecd.ai/en/ai-principles)
